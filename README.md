@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+A: Semantic HTML is HTML that is aranged in a way that give the page meaning. Proper use of section tags , p tags, headers and footers all contribute to semantic markup.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+ 
+A: display: block differs from diplay: inline because it respects the hight and width limits imposed on it by css. Also, you cannot nest block elements in an inline element, but you can in a block element.
 
 3. What are the 4 areas of the box model?
 
+A: The 4 areas of the box model are content, padding, border, and margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+A: Align-items: center works on the cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+A: Git allows a team of developers to work on the same project at the same time without corruting the original data. each person uses individual branches to make changes and commit those changes back to the original project.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -55,9 +65,9 @@ You are expected to be able to answer all these questions. Your responses contri
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
-- [ ] Your project manager will count the project as complete by merging the branch back into master.
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Add your project manager as a reviewer on the pull-request
+- [x] Your project manager will count the project as complete by merging the branch back into master.
  
 
 

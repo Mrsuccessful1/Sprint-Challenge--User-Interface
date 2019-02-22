@@ -92,8 +92,8 @@ header nav a {
 }
 
 .about-section {
-    padding: 0 1%;
     padding-bottom: 20px;
+    padding-left: 20px;
 }
 
 .top-content img {
@@ -133,74 +133,7 @@ header nav a {
     justify-content: center;
 }
 
-.btn {
-    border-radius: 10%;
-    background: white;
-    border: 2px solid black;
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-weight: bold;
-}
-
-.about-us {
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-between;
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
-
-.about-us img {
-    margin: 20px 0;
-}
-
-.about-us div {
-    display: flex;
-    flex-flow: wrap;
-    padding: 20px 0;
-    
-    width: 47%;
-    border-bottom: 1px dashed black;
-
-}
-
-.bottom-content {
-    display: block;
-    margin: 20px 0;
-    justify-content: space-evenly;
-    
-}
-
-.bottom-content .text-container {
-    display: inline-block;
-    padding-right: 4%;
-    width: 30%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
-footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
-}
-
- .middle-content .boxes .box1 {
+.middle-content .boxes .box1 {
     background: teal;
  } 
 
@@ -239,3 +172,70 @@ footer nav a {
  .middle-content .boxes .box10 {
     background: dodgerblue;
  } 
+ 
+.btn {
+    border-radius: 10%;
+    background: white;
+    border: 2px solid black;
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.about-us {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.about-us img {
+    margin: 20px 0;
+}
+
+.about-us div {
+    display: flex;
+    flex-flow: wrap;
+    padding: 0px 0;
+    width: 47%;
+    border-bottom: 1px dashed black;
+
+}
+
+.bottom-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px ;
+    
+}
+
+.bottom-content .text-container {
+    display: inline-block;
+    padding-right: 4%;
+    width: 30%;
+}
+
+.bottom-content .text-container:last-child {
+    padding-right: 0;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+ 
